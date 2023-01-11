@@ -1,8 +1,8 @@
-﻿int start = 2;
+﻿int start = 1;
 int n = 5;
 
 while (start <= n)
 {
-    Console.WriteLine(start);
-    start += 2;
+    if (start % 2 == 0) Console.WriteLine(start);
+    start +=1;
 }
